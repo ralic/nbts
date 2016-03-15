@@ -26,7 +26,7 @@ declare class Set<T> { add(t: T): void; has(t: T): boolean; }
 
 var builtinLibs: {[name: string]: string} = {};
 
-class HostImpl implements ts.LanguageServiceHost, ts.ParseConfigHost {
+class HostImpl implements ts.LanguageServiceHost {
     version = 0;
     files: {[name: string]: {version: string; snapshot: SnapshotImpl}} = {};
     cachedConfig: {
@@ -58,14 +58,20 @@ class HostImpl implements ts.LanguageServiceHost, ts.ParseConfigHost {
     getScriptVersion(fileName: string) {
         if (fileName in builtinLibs) {
             return "0";
+        } else if (this.files[fileName]) {
+            return this.files[fileName].version;
         }
-        return this.files[fileName] && this.files[fileName].version;
+        return this.getProjectVersion();
     }
     getScriptSnapshot(fileName: string): ts.IScriptSnapshot {
         if (fileName in builtinLibs) {
             return new SnapshotImpl(builtinLibs[fileName]);
+        } else if (this.files[fileName]) {
+            return this.files[fileName].snapshot;
         }
-        return this.files[fileName] && this.files[fileName].snapshot;
+        var text = ts.sys.readFile(fileName);
+        this.log('Reading file ' + fileName + ': size=' + (typeof text === 'string' ? text.length : text));
+        return typeof text === 'string' ? new SnapshotImpl(text) : undefined;
     }
     getCurrentDirectory() {
         return "";
@@ -74,29 +80,14 @@ class HostImpl implements ts.LanguageServiceHost, ts.ParseConfigHost {
         return "(builtin) " + ts.getDefaultLibFileName(options);
     }
     useCaseSensitiveFileNames() {
-        // Necessary on Unix, should be OK on Windows since filenames always come from the indexer
-        // and should therefore be canonical.
-        return true;
-    }
-    readDirectory(path: string, extension?: string, exclude?: string[]) {
-        exclude = ts.map(exclude, s => ts.combinePaths(path, s));
-        return Object.keys(this.files).filter(name => {
-            if (path && name.lastIndexOf(path + ts.directorySeparator, 0) !== 0) {
-                return false;
-            } else if (extension && ! ts.fileExtensionIs(name, extension)) {
-                return false;
-            } else if (exclude && exclude.some(e =>
-                    name === e || name.lastIndexOf(e + ts.directorySeparator, 0) === 0)) {
-                return false;
-            }
-            return true;
-        });
+        return ts.sys.useCaseSensitiveFileNames;
     }
     configUpToDate() {
         if (! this.cachedConfig) {
             var path = "";
             var json = {};
-            var configFiles = this.readDirectory(null, '.json');
+            var configFiles = Object.keys(this.files)
+                    .filter(name => ts.fileExtensionIs(name, '.json'));
             if (configFiles.length) {
                 // We only support one project per source root for now; if there are multiple
                 // tsconfig.json files under this root, pick the one with the shortest path.
@@ -108,7 +99,7 @@ class HostImpl implements ts.LanguageServiceHost, ts.ParseConfigHost {
             this.cachedConfig = {
                 path: path,
                 compileOnSave: json ? (<any>json).compileOnSave : undefined,
-                pcl: ts.parseJsonConfigFileContent(json, this, dir)
+                pcl: ts.parseJsonConfigFileContent(json, ts.sys, dir)
             }
         }
         return this.cachedConfig;
@@ -140,7 +131,7 @@ class SnapshotImpl implements ts.IScriptSnapshot {
 
 class Program {
     host = new HostImpl();
-    service = ts.createLanguageService(this.host, ts.createDocumentRegistry(true));
+    service = ts.createLanguageService(this.host);
     updateFile(fileName: string, newText: string, modified: boolean) {
         this.host.version++;
         if (! (fileName in this.host.files) || /\.json$/.test(fileName)) {

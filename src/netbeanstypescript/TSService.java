@@ -79,6 +79,7 @@ import org.openide.util.RequestProcessor;
 public class TSService {
 
     static final Logger log = Logger.getLogger(TSService.class.getName());
+    static { log.setLevel(Level.FINE); }
     static final RequestProcessor RP = new RequestProcessor("TSService", 1, true);
 
     private static class ExceptionFromJS extends Exception {
