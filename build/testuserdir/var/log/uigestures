@@ -1,0 +1,340 @@
+<record>
+  <date>2016-07-12T05:33:17</date>
+  <millis>1468326797194</millis>
+  <sequence>70</sequence>
+  <level>300</level>
+  <thread>16</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2016-07-12T05:33:17</date>
+  <millis>1468326797216</millis>
+  <sequence>71</sequence>
+  <level>300</level>
+  <thread>16</thread>
+  <message>SCREEN SIZE</message>
+  <param>1280</param>
+  <param>800</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-07-12T05:33:17</date>
+  <millis>1468326797216</millis>
+  <sequence>72</sequence>
+  <level>700</level>
+  <thread>16</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2016-07-12T05:33:26</date>
+  <millis>1468326806340</millis>
+  <sequence>95</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>16</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Aqua</param>
+  <param>Mac OS X</param>
+</record>
+<record>
+  <date>2016-07-12T05:33:33</date>
+  <millis>1468326813065</millis>
+  <sequence>99</sequence>
+  <level>800</level>
+  <thread>27</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8589934592</param>
+</record>
+<record>
+  <date>2016-07-12T05:33:34</date>
+  <millis>1468326814010</millis>
+  <sequence>100</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>20</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile[&amp;New File...]</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile</param>
+  <param>&amp;New File...</param>
+</record>
+<record>
+  <date>2016-07-12T05:33:34</date>
+  <millis>1468326814014</millis>
+  <sequence>101</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile[&amp;New File...]</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile</param>
+  <param>&amp;New File...</param>
+</record>
+<record>
+  <date>2016-07-12T05:33:41</date>
+  <millis>1468326821101</millis>
+  <sequence>104</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>20</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.OpenProject[Open Proj&amp;ect...]</param>
+  <param>org.netbeans.modules.project.ui.actions.OpenProject</param>
+  <param>Open Proj&amp;ect...</param>
+</record>
+<record>
+  <date>2016-07-12T05:34:07</date>
+  <millis>1468326847403</millis>
+  <sequence>105</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
+  <thread>15</thread>
+  <message>ERGO_PROJECT_OPEN</message>
+  <key>ERGO_PROJECT_OPEN</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+  <param>apisupport</param>
+</record>
+<record>
+  <date>2016-07-12T05:34:09</date>
+  <millis>1468326849316</millis>
+  <sequence>107</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>30</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2016-07-12T05:34:16</date>
+  <millis>1468326856563</millis>
+  <sequence>111</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>ERGO_DOWNLOAD</message>
+  <key>ERGO_DOWNLOAD</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:34:16</date>
+  <millis>1468326856573</millis>
+  <sequence>112</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>ERGO_QUESTION</message>
+  <key>ERGO_QUESTION</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+  <param>webcommon</param>
+  <param>Opening File main.js</param>
+</record>
+<record>
+  <date>2016-07-12T05:34:41</date>
+  <millis>1468326881014</millis>
+  <sequence>146</sequence>
+  <logger>org.netbeans.ui.performance</logger>
+  <level>700</level>
+  <thread>27</thread>
+  <message>Snapshot statistics</message>
+  <param>1468326871983</param>
+  <param>Samples</param>
+  <param>691</param>
+  <param>Average</param>
+  <param>12.985478661360341</param>
+  <param>Minimum</param>
+  <param>1.801889</param>
+  <param>Maximum</param>
+  <param>114.221741</param>
+  <param>Std. deviation</param>
+  <param>8.566504163033557</param>
+</record>
+<record>
+  <date>2016-07-12T05:34:51</date>
+  <millis>1468326891024</millis>
+  <sequence>167</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>ERGO_CLOSE</message>
+  <key>ERGO_CLOSE</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:34:59</date>
+  <millis>1468326899092</millis>
+  <sequence>182</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:34:59</date>
+  <millis>1468326899093</millis>
+  <sequence>183</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:34:59</date>
+  <millis>1468326899093</millis>
+  <sequence>184</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:35:11</date>
+  <millis>1468326911994</millis>
+  <sequence>188</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>31</thread>
+  <message>UI_OPEN_PROJECTS</message>
+  <key>UI_OPEN_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.ide.ergonomics.fod.FeatureProjectFactory$FeatureNonProject</param>
+  <param>FeatureProjectFactory$FeatureNonProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-07-12T05:35:11</date>
+  <millis>1468326911996</millis>
+  <sequence>189</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>31</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.ide.ergonomics.fod.FeatureProjectFactory$FeatureNonProject</param>
+</record>
+<record>
+  <date>2016-07-12T05:35:13</date>
+  <millis>1468326913071</millis>
+  <sequence>190</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>28</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-07-12T05:35:29</date>
+  <millis>1468326929291</millis>
+  <sequence>229</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:35:29</date>
+  <millis>1468326929292</millis>
+  <sequence>230</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:35:29</date>
+  <millis>1468326929293</millis>
+  <sequence>231</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:35:29</date>
+  <millis>1468326929293</millis>
+  <sequence>232</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-07-12T05:36:03</date>
+  <millis>1468326963604</millis>
+  <sequence>530</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>20</thread>
+  <message>LOG_WINDOW_REFRESH_CANCEL</message>
+  <key>LOG_WINDOW_REFRESH_CANCEL</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-07-12T05:36:03</date>
+  <millis>1468326963681</millis>
+  <sequence>531</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>114</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>36125</param>
+</record>
+<record>
+  <date>2016-07-12T05:36:10</date>
+  <millis>1468326970757</millis>
+  <sequence>533</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/typescript</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-07-12T05:36:11</date>
+  <millis>1468326971198</millis>
+  <sequence>535</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>20</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>12</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>

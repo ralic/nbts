@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="netbeanstypescript">
+    <module_version install_time="1468326983539" last="true" origin="installer" specification_version="1.8.5.0">
+        <file crc="541597923" name="config/Modules/netbeanstypescript.xml"/>
+        <file crc="1036277169" name="modules/netbeanstypescript.jar"/>
+        <file crc="3994472597" name="nbts-services.js"/>
+    </module_version>
+</module>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Projects">
+        <folder name="org.netbeans.modules.web.clientproject">
+            <folder name="Customizer">
+                <folder name="jsframeworks">
+                    <file name="netbeanstypescript-TSProjectCustomizer-createCustomizer.instance">
+                        <!--netbeanstypescript.TSProjectCustomizer.createCustomizer()-->
+                        <attr
+                            methodvalue="netbeanstypescript.TSProjectCustomizer.createCustomizer" name="instanceCreate"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="org-netbeans-modules-php-project">
+            <folder name="Customizer">
+                <folder name="jsframeworks">
+                    <file name="netbeanstypescript-TSProjectCustomizer-createCustomizer.instance">
+                        <!--netbeanstypescript.TSProjectCustomizer.createCustomizer()-->
+                        <attr
+                            methodvalue="netbeanstypescript.TSProjectCustomizer.createCustomizer" name="instanceCreate"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="org-netbeans-modules-maven">
+            <folder name="Customizer">
+                <folder name="jsframeworks">
+                    <file name="netbeanstypescript-TSProjectCustomizer-createCustomizer.instance">
+                        <!--netbeanstypescript.TSProjectCustomizer.createCustomizer()-->
+                        <attr
+                            methodvalue="netbeanstypescript.TSProjectCustomizer.createCustomizer" name="instanceCreate"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="org-netbeans-modules-web-project">
+            <folder name="Customizer">
+                <file name="netbeanstypescript-TSProjectCustomizer-createCustomizer.instance">
+                    <!--netbeanstypescript.TSProjectCustomizer.createCustomizer()-->
+                    <attr
+                        methodvalue="netbeanstypescript.TSProjectCustomizer.createCustomizer" name="instanceCreate"/>
+                    <attr intvalue="360" name="position"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="netbeanstypescript-TSLanguage-createEditor-Extension.xml">
+                <!--netbeanstypescript.TSLanguage.createEditor(org.openide.util.Lookup)-->
+                <attr
+                    methodvalue="org.openide.filesystems.MIMEResolver.create" name="instanceCreate"/>
+                <attr name="instanceClass" stringvalue="org.openide.filesystems.MIMEResolver"/>
+                <attr name="mimeType" stringvalue="text/typescript"/>
+                <attr name="ext.0" stringvalue="ts"/>
+                <attr name="ext.1" stringvalue="tsx"/>
+                <attr name="displayName" stringvalue="TypeScript files"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="typescript">
+                <folder name="BracesMatchers">
+                    <file name="netbeanstypescript-JsBracesMatcher$JsBracesMatcherFactory.instance">
+                        <!--netbeanstypescript.JsBracesMatcher.JsBracesMatcherFactory-->
+                        <attr intvalue="0" name="position"/>
+                        <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.bracesmatching.BracesMatcherFactory"/>
+                    </file>
+                </folder>
+                <file name="netbeanstypescript-JsCamelCaseInterceptor$Factory.instance">
+                    <!--netbeanstypescript.JsCamelCaseInterceptor.Factory-->
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.typinghooks.CamelCaseInterceptor$Factory"/>
+                </file>
+                <file name="netbeanstypescript-JsDeletedTextInterceptor$JsFactory.instance">
+                    <!--netbeanstypescript.JsDeletedTextInterceptor.JsFactory-->
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.typinghooks.DeletedTextInterceptor$Factory"/>
+                </file>
+                <file name="netbeanstypescript-JsTypedTextInterceptor$JsFactory.instance">
+                    <!--netbeanstypescript.JsTypedTextInterceptor.JsFactory-->
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.typinghooks.TypedTextInterceptor$Factory"/>
+                </file>
+                <file name="netbeanstypescript-JsTypedBreakInterceptor$JsFactory.instance">
+                    <!--netbeanstypescript.JsTypedBreakInterceptor.JsFactory-->
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.typinghooks.TypedBreakInterceptor$Factory"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-TLIndexerFactory.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.TLIndexerFactory"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.parsing.spi.indexing.EmbeddingIndexerFactory"/>
+                </file>
+                <folder name="SideBar">
+                    <file name="org-netbeans-modules-editor-breadcrumbs-spi-BreadcrumbsController-createSideBarFactory.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr
+                            methodvalue="org.netbeans.modules.editor.breadcrumbs.spi.BreadcrumbsController.createSideBarFactory" name="instanceCreate"/>
+                        <attr name="location" stringvalue="South"/>
+                        <attr intvalue="5238" name="position"/>
+                        <attr boolvalue="false" name="scrollable"/>
+                    </file>
+                </folder>
+                <file name="org-netbeans-modules-csl-core-CslEditorKit-createEditorKitInstance.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr
+                        methodvalue="org.netbeans.modules.csl.core.CslEditorKit.createEditorKitInstance" name="instanceCreate"/>
+                    <attr name="instanceOf" stringvalue="javax.swing.text.EditorKit"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-CslEditorKit-createLexerLanguageInstance.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr
+                        methodvalue="org.netbeans.modules.csl.core.CslEditorKit.createLexerLanguageInstance" name="instanceCreate"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.api.lexer.Language"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-GsfParserFactory-create.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr
+                        methodvalue="org.netbeans.modules.csl.core.GsfParserFactory.create" name="instanceCreate"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.parsing.spi.ParserFactory"/>
+                </file>
+                <folder name="CompletionProviders">
+                    <file name="org-netbeans-lib-editor-codetemplates-CodeTemplateCompletionProvider.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.lib.editor.codetemplates.CodeTemplateCompletionProvider"/>
+                    </file>
+                    <file name="org-netbeans-modules-csl-editor-completion-GsfCompletionProvider.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.completion.GsfCompletionProvider"/>
+                    </file>
+                    <file name="org-netbeans-modules-parsing-ui-WaitScanFinishedCompletionProvider.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.parsing.ui.WaitScanFinishedCompletionProvider"/>
+                    </file>
+                </folder>
+                <folder name="FoldManager">
+                    <file name="org-netbeans-modules-csl-editor-fold-GsfFoldManagerFactory.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.fold.GsfFoldManagerFactory"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                </folder>
+                <folder name="CodeTemplateProcessorFactories">
+                    <file name="org-netbeans-modules-csl-editor-codetemplates-GsfCodeTemplateProcessor$Factory.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.codetemplates.GsfCodeTemplateProcessor$Factory"/>
+                    </file>
+                </folder>
+                <folder name="CodeTemplateFilterFactories">
+                    <file name="org-netbeans-modules-csl-editor-codetemplates-GsfCodeTemplateFilter$Factory.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.codetemplates.GsfCodeTemplateFilter$Factory"/>
+                    </file>
+                </folder>
+                <folder name="HyperlinkProviders">
+                    <file name="org-netbeans-modules-csl-editor-hyperlink-GsfHyperlinkProvider.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.hyperlink.GsfHyperlinkProvider"/>
+                        <attr name="instanceOf" stringvalue="org.netbeans.lib.editor.hyperlink.spi.HyperlinkProviderExt"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                </folder>
+                <file name="org-netbeans-modules-csl-editor-semantic-HighlightsLayerFactoryImpl.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.semantic.HighlightsLayerFactoryImpl"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.highlighting.HighlightsLayerFactory"/>
+                </file>
+                <folder name="UpToDateStatusProvider">
+                    <file name="org-netbeans-modules-csl-hints-GsfUpToDateStateProviderFactory.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.hints.GsfUpToDateStateProviderFactory"/>
+                        <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.errorstripe.UpToDateStatusProviderFactory"/>
+                    </file>
+                    <file name="org-netbeans-modules-csl-editor-semantic-OccurrencesMarkProviderCreator.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.editor.semantic.OccurrencesMarkProviderCreator"/>
+                        <attr name="instanceOf" stringvalue="org.netbeans.modules.editor.errorstripe.privatespi.MarkProviderCreator"/>
+                    </file>
+                </folder>
+                <folder name="Popup">
+                    <folder name="goto">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr intvalue="500" name="position"/>
+                        <attr
+                            bundlevalue="org.netbeans.modules.csl.core.Bundle#generate-goto-popup" name="displayName"/>
+                        <file name="goto-declaration">
+                            <!--netbeanstypescript.TSLanguage-->
+                            <attr intvalue="500" name="position"/>
+                        </file>
+                        <file name="goto">
+                            <!--netbeanstypescript.TSLanguage-->
+                            <attr intvalue="600" name="position"/>
+                        </file>
+                    </folder>
+                    <file name="SeparatorBeforeCut.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="format">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr intvalue="750" name="position"/>
+                    </file>
+                    <file name="SeparatorAfterFormat.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="780" name="position"/>
+                    </file>
+                </folder>
+                <folder name="Toolbars">
+                    <folder name="Default">
+                        <file name="Separator-before-comment.instance">
+                            <!--netbeanstypescript.TSLanguage-->
+                            <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                            <attr intvalue="30000" name="position"/>
+                        </file>
+                        <file name="comment">
+                            <!--netbeanstypescript.TSLanguage-->
+                            <attr intvalue="30100" name="position"/>
+                        </file>
+                        <file name="uncomment">
+                            <!--netbeanstypescript.TSLanguage-->
+                            <attr intvalue="30200" name="position"/>
+                        </file>
+                    </folder>
+                </folder>
+                <file name="org-netbeans-modules-csl-core-GsfReformatTaskFactory.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.GsfReformatTaskFactory"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.editor.indent.spi.ReformatTask$Factory"/>
+                </file>
+                <file name="org-netbeans-modules-csl-core-GsfIndentTaskFactory.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.GsfIndentTaskFactory"/>
+                    <attr name="instanceOf" stringvalue="org.netbeans.modules.editor.indent.spi.IndentTask$Factory"/>
+                </file>
+                <folder name="MultiView">
+                    <file name="netbeanstypescript-TSLanguage-createEditor.instance">
+                        <!--netbeanstypescript.TSLanguage.createEditor(org.openide.util.Lookup)-->
+                        <attr
+                            methodvalue="org.netbeans.core.spi.multiview.MultiViewFactory.createMultiViewDescription" name="instanceCreate"/>
+                        <attr name="instanceClass" stringvalue="org.netbeans.core.multiview.ContextAwareDescription"/>
+                        <attr name="class" stringvalue="netbeanstypescript.TSLanguage"/>
+                        <attr name="displayName" stringvalue="Source"/>
+                        <attr name="iconBase" stringvalue="netbeanstypescript/resources/typescript.png"/>
+                        <attr name="preferredID" stringvalue="TS"/>
+                        <attr intvalue="1" name="persistenceType"/>
+                        <attr name="method" stringvalue="createEditor"/>
+                        <attr boolvalue="true" name="sourceview"/>
+                    </file>
+                </folder>
+            </folder>
+            <folder name="typescript-doc">
+                <file name="netbeanstypescript-JsTypedBreakInterceptor$JsFactory.instance">
+                    <!--netbeanstypescript.JsTypedBreakInterceptor.JsFactory-->
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.typinghooks.TypedBreakInterceptor$Factory"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="CslPlugins">
+        <folder name="text">
+            <folder name="typescript">
+                <!--netbeanstypescript.TSLanguage-->
+                <attr intvalue="2" name="genver"/>
+                <attr boolvalue="true" name="useMultiview"/>
+                <file name="language.instance">
+                    <!--netbeanstypescript.TSLanguage-->
+                    <attr name="instanceClass" stringvalue="netbeanstypescript.TSLanguage"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Navigator">
+        <folder name="Panels">
+            <folder name="text">
+                <folder name="typescript">
+                    <file name="org-netbeans-modules-csl-navigation-ClassMemberPanel.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.navigation.ClassMemberPanel"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="typescript">
+                <folder name="Factories">
+                    <file name="org-netbeans-modules-csl-core-GsfDataLoader.instance">
+                        <!--netbeanstypescript.TSLanguage-->
+                        <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.GsfDataLoader"/>
+                        <attr intvalue="89998" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
